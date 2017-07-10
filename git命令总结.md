@@ -43,10 +43,10 @@ git diff --cached    #是暂存区(stage)和分支(master)的比较
 git diff HEAD  #查看工作区和版本库里面最新版本的区别
 ```
 - 查看提交日志
-
+```java
 git log
-
 git log --pretty=oneline
+```
 - 版本回退到上一个版本
 ```java
 git reset --hard HEAD^
