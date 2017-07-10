@@ -1,0 +1,32 @@
+1.在Linux上安装git
+
+2.创建GitHub帐号：登陆git主页： https://github.com/，自己注册一个账号
+
+3.生成ssh key：终端使用命令 
+ssh-keygen -t rsa -C "your_email@youremail.com"  
+一般情况下，复制文件~/.ssh/id_rsa.pub（.ssh是隐藏文件夹，需要设置显示隐藏文件夹）的所有字符。
+
+4.添加SSH key：回到github，进入Account Settings，左边选择SSH Keys，Add SSH Key，title随便填，粘贴你的key。
+
+5.测试ssh key是否成功：使用命令
+ssh -T git@github.com  
+
+如果出现You’ve successfully authenticated, but GitHub does not provide shell access 。
+这就表示已成功连上github。如果出现“Agent admitted failure to sign using the key.Permission denied (publickey).”这个错误的话，在命令行下
+执行  
+ssh -add  
+这样就可以了。
+
+6.配置Git的全局配置文件，username和email：
+git config --global user.name "your name"   //配置用户名  
+git config --global user.email "your email"    //配置email   
+或者(单独项目)
+git config user.name "your name"   //配置用户名  
+git config user.email "your email"    //配置email   
+
+7.在Git上添加一个Repository
+
+这样Linux系统下使用git的前期准备工作完成
+
+参考链接
+http://www.runoob.com/w3cnote/git-guide.html
