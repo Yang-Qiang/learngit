@@ -5,4 +5,4 @@
 ***
 部分命令图示
 
-![](https://github.com/Yang-Qiang/learngit/blob/master/%E9%83%A8%E5%88%86%E5%91%BD%E4%BB%A4%E5%9B%BE%E7%A4%BA.jpg)
+![](https://github.com/Yang-Qiang/learngit/blob/master/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%9B%BE%E7%A4%BA.jpg)
