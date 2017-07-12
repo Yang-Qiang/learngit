@@ -47,10 +47,14 @@ git diff HEAD  #查看工作区和版本库里面最新版本的区别
 git log
 git log --pretty=oneline
 ```
-- 版本回退到上一个版本
 ```java
+版本回退到当前版本版本
+git reset --hard HEAD
+版本回退到上一个版本
 git reset --hard HEAD^
-git reset --hard 3628164
+版本回退到某个历史版本
+git reset --hard commit_id
+
 ```
 - 查看命令日志
 ```java
